@@ -1,0 +1,61 @@
+.App {
+  text-align   : center;
+  margin-left : 20%;
+  margin-right: 20%;
+  width        : 60%;
+  background-color: whitesmoke;
+}
+
+.app__form {
+  text-align      : center;
+  position        : fixed;
+  bottom          : 0;
+  z-index         : 1;
+  background-color: rgb(214, 214, 214);
+  width           : 58%;
+  padding-top     : 10px;
+  padding-bottom  : 10px;
+  padding-left    : 1%;
+  margin-left: .5%;
+  border-radius   : 10px;
+}
+
+.app__formControl {
+  display       : flex !important;
+  flex-direction: row !important;
+}
+
+.app__formInput {
+  flex: 1;
+  text-decoration: none !important;
+}
+
+.app__formIconButton {
+  flex: 0;
+}
+
+.app__welcome {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+.app__signInMethods > button {
+  margin-left: 10px;
+  margin-top: 27px;
+}
+
+.footer{
+  position: fixed;
+  z-index: 1;
+  right: 10px;
+  top: 95%;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
